@@ -153,9 +153,6 @@ spec:
             - containerPort: 8080
               name: metrics
           resources:
-            requests:
-              memory: 512Mi
-              cpu: "1"
             limits:
               memory: 512Mi
               cpu: "1"
@@ -259,9 +256,6 @@ spec:
               drop:
                 - ALL
           resources:
-            requests:
-              memory: 512Mi
-              cpu: "1"
             limits:
               memory: 512Mi
               cpu: "1"
@@ -502,9 +496,6 @@ spec:
             initialDelaySeconds: 5
             periodSeconds: 10
           resources:
-            requests:
-              memory: 1Gi
-              cpu: "1"
             limits:
               memory: 1Gi
               cpu: "1"
@@ -548,9 +539,6 @@ spec:
           image: docker.io/harness/argocd:v2.9.3
           name: copyutil
           resources:
-            requests:
-              memory: 512Mi
-              cpu: "1"
             limits:
               memory: 512Mi
               cpu: "1"
@@ -681,9 +669,6 @@ spec:
             seccompProfile:
               type: RuntimeDefault
           resources:
-            requests:
-              memory: 512Mi
-              cpu: "1"
             limits:
               memory: 512Mi
               cpu: "1"
