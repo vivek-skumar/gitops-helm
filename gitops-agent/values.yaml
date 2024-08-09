@@ -1,4 +1,4 @@
 includeCrds: true
 
 cluster:
-  name: 
+  name: testcluster
